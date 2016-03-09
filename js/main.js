@@ -86,9 +86,10 @@ window.onclick = function(event) {
 	
 	    // Form validation
      $('#order-form').validate({
-         submitHandler: function(form) {
+         submitHandler: function(form){
              // If form is valid, submit it!
              form.submit();
+			 
          },
          rules: {
              "your-name": {

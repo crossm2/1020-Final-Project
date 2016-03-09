@@ -21,7 +21,7 @@
     <link href="css/shop-homepage.css" rel="stylesheet">
 
 	<link href="css/lavish-bootstrap.css" rel="stylesheet">
-	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	<script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -282,20 +282,20 @@
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">x</span>
-    <fieldset>
-          <legend>Order Information</legend>
-		          <div class="form-group">
-            <label class="col-sm-3 control-label" for="comments">Goodies to Order</label>
+	 <form class="form-horizontal" role="form" action="thank-you.html" method="get" id="order-form"> 
+   <div class="container">
+        <fieldset>
+			  <label class="col-sm-3 control-label" for="comments">Goodies to Order</label>
             <div class="col-sm-9">
 				<form action="">
-               <input type="radio" name="choice1" value="choice1"> Box of 12 Assorted Chocolate Truffles - $24.99<br>
-  				<input type="radio" name="choice2" value="choice2"> Box of 12 Coconut Truffles - $18.99<br>
-  				<input type="radio" name="choice3" value="choice3"> One Dozen Gift Wrapped Double Chip Cookies -$22.99<br>
-				<input type="radio" name="choice4" value="choice4"> Box of Two Dozen Brownie Bites - $18.99<br>
-  				<input type="radio" name="choice5" value="choice5"> Set of 9 Gift Wrapped Golden Chocolate Turles -$24.99<br>
+               <input type="radio" name="choice" value="choice1"> Box of 12 Assorted Chocolate Truffles - $24.99<br>
+  				<input type="radio" name="choice" value="choice2"> Box of 12 Coconut Truffles - $18.99<br>
+  				<input type="radio" name="choice" value="choice3"> One Dozen Gift Wrapped Double Chip Cookies -$22.99<br>
+				<input type="radio" name="choice" value="choice4"> Box of Two Dozen Brownie Bites - $18.99<br>
+  				<input type="radio" name="choice" value="choice5"> Set of 9 Gift Wrapped Golden Chocolate Turtles -$24.99<br>
           		 </form>
 			</div>
-          </div>
+          <legend>Your Information</legend>
           <div class="form-group required">
             <label class="col-sm-3 control-label" for="your-name"><span class="glyphicon glyphicon-question-sign" title="Your first and last name."></span> Your Name</label>
             <div class="col-sm-9">
@@ -400,11 +400,11 @@
                 <div class="col-xs-3">
                   <select class="form-control col-sm-2" name="shipping-method" id="shipping-method" required>
                     <option>Select One</option>
-                    <option value="Ground">UPS Ground</option>
-                    <option value="Air">UPS Air</option>
-                    <option value="Sea">USPS Boat</option>
-                    <option value="Rocket">USPS Jet</option>
-                    <option value="Pigeon">Pigeon Carrier</option>
+                    <option value="Ground">Ground</option>
+                    <option value="Air">Air</option>
+                    <option value="Sea">Sea</option>
+                    <option value="Rocket">Rocket</option>
+                    <option value="Pigeon">Pigeon</option>
                   </select>
                 </div>
               </div>
@@ -422,26 +422,21 @@
             </div>
           </div>
         </fieldset>
-      </form>
+
     </div>
-    <div class="container">
-      <hr>
-  </div>
-
-</div>
-    <!-- /.container -->
-
+	</div>
+      </form>
     <!-- jQuery -->
    <script src="js/jquery.js"></script>
 	 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 	<!-- custom JavasScript -->
 	
         <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-        <script src="js/vendor/jquery.validate.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
         <script src="js/main.js"></script>
 	
 	

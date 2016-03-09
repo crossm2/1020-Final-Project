@@ -2929,8 +2929,8 @@ select[multiple].input-lg,
 
 .btn-success {
   color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c; }
+  background-color: #CD70AA;
+  border-color: #c65d9f; }
   .btn-success:hover, .btn-success:focus, .btn-success.focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
     color: #fff;
     background-color: #449d44;
